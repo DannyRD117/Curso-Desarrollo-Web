@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Formularios HTML parte 1</title>
+    </head>
+    <body>
+        <h1>FORMULARIOS EN HTML</h1>
+        <h2>Formulario de tipo Text</h2>
+        <form action="formularios1.html">
+            <input type="text" name="text" value="Soy un formulario" maxlength="3">
+        </form>
+        <h2>Formulario de tipo checkbox</h2>
+        <form action="formularios1.html">
+            <input type="checkbox" name="temas" checked="checked" value="html">HTML<br>
+            <input type="checkbox" name="temas" value="css">CSS
+        </form>
+        <h2>Formulario de tipo Radio</h2>
+        <form action="formularios1.html">
+            <input type="radio" name="tema" checked="checked" value="html">HTML
+            <input type="radio" name="tema" value="css">CSS
+        </form>
+        <h2>Formulario de tipo File</h2>
+        <form action="formularios1.html" enctype="multipart/form-data">
+            <input type="file">
+        </form>
+        <h2>Formulario de tipo Password</h2>
+        <form action="formularios1.html">
+            <input type="password">
+        </form>
+        <h2>Formulario de tipo Hidden</h2>
+        <p>Hay un formulario a continuacion pero esta oculto para el usario</p>
+        <form action="formularios1.html">
+            <input type="hidden">
+        </form>
+        <h2>Formulario de tipo Submit</h2>
+        <form action="formularios1.html">
+            <input type="submit" value="ENVIAR">
+        </form>
+        <h2>Formulario de tipo Reset</h2>
+        <form action="formularios1.html">
+            <input type="reset" value="Limpiar">
+        </form>
+        <h2>Formulario de tipo Button</h2>
+        <form action="formularios1.html">
+            <input type="button" value="Soy un nuevo boton">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>Tablas HTML</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>TABLAS DE EJEMPLO</h1>
+        <h2>Tabla simple</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td>ALUMNO</td>
+                    <td>NOTA</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pepe</td>
+                    <td>7.65</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>8.54</td>
+                </tr>
+                <tr>
+                    <td>Jordi</td>
+                    <td>5.55</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>MEDIA</td>
+                    <td>7.25</td>
+                </tr>
+                <tr>
+                    <td>DESV. TÍPICA</td>
+                    <td>7.35</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Tabla con columnas y filas combinadas</h2>
+        <table>
+            <caption>Ingresos</caption>
+            <thead>
+                <tr>
+                    <td colspan="2">2012</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Enero</td>
+                    <td>$100</td>
+                </tr>
+                <tr><td>$50</td></tr>
+                <tr>
+                    <td>Febrero</td>
+                    <td>$75</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Tabla agrupando atributos de columnas con col</h2>
+        <table>
+            <col span="2">
+            <col style= "background-color: blue;">
+            <caption>Ingresos 2012</caption>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td>Enero</td>
+                    <td>1</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Enero</td>
+                    <td>2</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Febrero</td>
+                    <td>1</td>
+                    <td>$80</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>EJERCICIOS</h1>
+        <h2>Ejercicio 1</h2>
+        <table>
+            <caption>Ingresos</caption>
+            <thead>
+                <tr><td colspan="2">2012</td></tr>
+            </thead>
+            <tbody>
+                <tr><td colspan="2">Enero</td></tr>
+                <tr>
+                    <td>$100</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Febrero</td>
+                    <td>$75</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+        <h2>Ejercicio 2</h2>
+        <table>
+            <caption>Ingresos</caption>
+            <thead>
+                <tr><td colspan="4">2012</td></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Enero</td>
+                    <td>1</td>
+                    <td colspan="2">$100</td>
+                </tr> 
+                <tr>
+                    <td>2</td>
+                    <td colspan="2">$50</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Febrero</td>
+                    <td colspan="2">$75</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
