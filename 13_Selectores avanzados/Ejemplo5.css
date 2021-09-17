@@ -1,0 +1,8 @@
+a.new:after{
+    content: "(Nuevo)";
+    color: #000;
+}
+a.old::before{
+    content: "(DEP)";
+    color: #000;
+}
