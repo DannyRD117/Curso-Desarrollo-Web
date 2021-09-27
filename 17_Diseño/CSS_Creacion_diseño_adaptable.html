@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0"> 
+        <title>Ejemplo de diseño adaptable</title>
+        <link rel="stylesheet" href="colors.css">
+        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="great.css" media="screen and (min-width: 981px)">
+        <link rel="stylesheet" href="medium.css" media="screen and (min-width: 561px) and (max-width: 980px)">
+        <link rel="stylesheet" href="mini.css" media="screen and (max-width: 560px)">
+    </head>
+    <body>
+        <header>
+            <h1>El titulo de mi sitio web</h1>
+            <h2 class="display-great">Grande</h2>
+            <h2 class="display-medium">Mediano</h2>
+            <h2 class="display-mini">Mini</h2>
+        </header>
+        <div id="wrapper">
+            <nav id="main-nav">
+                <h2>Mi menú</h2>
+                <ul class="menu display-great display-medium">
+                    <li>Uno</li>
+                    <li>Dos</li>
+                    <li>Tres</li>
+                </ul>
+                <select class="display-mini">
+                    <option value="uno">Uno</option>
+                    <option value="dos">Dos</option>
+                    <option value="tres">Tres</option>
+                </select>
+            </nav>
+            <section id="main-section">
+                <h2>Mi contenido</h2>
+                <article>
+                    <h3><a href="#">Entrada 1</a></h3>
+                    <p class="display-great display-medium">Lorem ipsum dolor sit amet...</p>
+                </article>
+                <article>
+                    <h3><a href="#">Entrada 2</a></h3>
+                    <p class="display-great display-medium">Lorem ipsum dolor sit amet...</p>
+                </article>
+                <article>
+                    <h3><a href="#">Entrada 3</a></h3>
+                    <p class="display-great display-medium">Lorem ipsum dolor sit amet...</p>
+                </article>
+            </section>
+        </div>
+        <footer>
+            <p>El tipico pie que nadie lee</p>
+            <select class="display-mini">
+                <option value="uno">Uno</option>
+                <option value="dos">Dos</option>
+                <option value="tres">Tres</option>
+            </select>
+        </footer>
+    </body>
+</html>
